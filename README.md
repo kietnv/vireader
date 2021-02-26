@@ -1,6 +1,10 @@
 # ViReader
 ViReader is a novel Vietnamese MRC system that implementsa transfer learning-based sentence retriever and a XLM-RoBERTa-based answerextractor. As a result, our system outperform the DrQA-based system by 30.83 and 26.10 percentage points in terms of answer prediction EM-score and F1-score, respectively. Significantly, our proposed system outperforms the original XLM-R based MRC system in terms of performance and speed.
 
+# Dataset 
+
+ViReader is trained on the large-scale Vietnamese dataset (UIT-ViQuAD [1]) for evaluating machine reading comprehension. 
+
 # Requirements 
 
 !pip install sentence-transformers 
@@ -32,3 +36,8 @@ question = 	"Hệ Mặt Trời khi còn là mọt đám bụi khí được gọ
 answer = myQA.predict(context, question)
 
 print(answer)
+
+# References 
+
+[1] Kiet Van Nguyen, Duc-Vu Nguyen, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. A Vietnamese Dataset for Evaluating Machine Reading Comprehension. COLING 2020.
+
