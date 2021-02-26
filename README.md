@@ -23,7 +23,7 @@ from vireader import ViReader
 
 #load model
 
-myQA = ViReader()
+myReader = ViReader()
 
 #For instance
 
@@ -33,7 +33,9 @@ question = 	"Hệ Mặt Trời khi còn là mọt đám bụi khí được gọ
 
 #predict answer
 
-answer = myQA.predict(context, question)
+answer = myReader.predict(context, question)
+
+#print the predicted answer 
 
 print(answer)
 
