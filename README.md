@@ -39,6 +39,20 @@ answer = myReader.predict(context, question)
 
 print(answer)
 
+# Training
+
+Phase 1: Sentence Retriever
+
+Use the Sentence_Retriever.ipynb for the sentence retriever component of the ViReader system.
+
+Phase 2: Answer Extractor
+
+Use Answer_Extractor_Training.ipynb and Answer_Extractor_Testing.ipynb for the training and testing phases of the answer extractor component of the ViReader system.
+
+# Dataset
+
+UIT-ViQuAD is available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
+
 # References 
 
 [1] Kiet Van Nguyen, Duc-Vu Nguyen, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. A Vietnamese Dataset for Evaluating Machine Reading Comprehension. COLING 2020.
