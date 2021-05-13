@@ -3,16 +3,25 @@ from sentence_transformers import util
 from sentence_transformers import SentenceTransformer
 from underthesea import sent_tokenize
 from transformers import XLMRobertaForQuestionAnswering, XLMRobertaTokenizer
+import re
 
 class ViReader():
   def __init__(self,model_path="./model"):
     self.tokenizer = XLMRobertaTokenizer.from_pretrained(model_path)
     self.model = XLMRobertaForQuestionAnswering.from_pretrained(model_path)
     self.sentence_model = SentenceTransformer('paraphrase-xlm-r-multilingual-v1')
+    
+  def pre_processing(text):
+      text = text.lower()
+      text = text.replace("\n","")
+      text = re.sub(' +', ' ', text)
+      return text
   
   def predict(self, context, question):
     #input: context, question
     #output: answer
+    context = pre_processing(text) 
+    question = pre_processing(text)
 
     #Find top 5 sentences
     corpus = sent_tokenize(context)
