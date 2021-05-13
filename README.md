@@ -51,7 +51,7 @@ Use Answer_Extractor_Training.ipynb and Answer_Extractor_Testing.ipynb for the t
 
 # Dataset
 
-UIT-ViQuAD is available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
+UIT-ViQuAD [1] is available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
 
 # References 
 
