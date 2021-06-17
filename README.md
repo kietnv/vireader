@@ -2,11 +2,11 @@
 
 ViReader is an open-domain machine reading comprehension system for the Vietnamese language by using Wikipedia as the source of textual knowledge, where the answer to any particular question is a textual span derived directly from text from Vietnamese Wikipedia. Our system combines a sentence retriever component, based on techniques of information retrieval to extract the relevant sentences, with a transfer learning-based answer extractor trained to predict answers based on Wikipedia texts. Experiments on multiple datasets for machine reading comprehension in Vietnamese and other languages demonstrate that (1) our ViReader system is highly competitive with prevalent machine learning-based systems, and (2) multi-task learning by using a combination consisting of the sentence retriever and answer extractor is an end-to-end reading comprehension system. The sentence retriever component of our proposed system retrieves the sentences that are most likely to provide the answer response to the given question. The transfer learning-based answer extractor then reads the document from which the sentences have been retrieved, predicts the answer, and returns it to the user. The ViReader system achieves the state-of-the-art performances, with values of 70.83% and 89.54% of the exact match (EM) and F1, respectively, outperforming the BERT-based system by 11.55% and 9.54%, respectively. It also obtains state-of-the-art performance on ViNewsQA (another Vietnamese dataset consisting of online health-domain news) and BiPaR (a bilingual dataset on English and Chinese novel texts). Compared with the BERT-based system, we achieve significant improvements (in terms of F1) with 7.56% for English and 6.13% for Chinese on the BiPaR dataset.
 
-Please cite paper if you use or refer ViReader: Kiet Van Nguyen, Nhat Duy Nguyen, Phong Nguyen-Thuan Do, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. ViReader: A Wikipedia-based Vietnamese reading comprehension system using transfer learning. Journal of Intelligent and Fuzzy Systems.
+Please cite paper if you use or refer ViReader: Kiet Van Nguyen, Nhat Duy Nguyen, Phong Nguyen-Thuan Do, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. ViReader: A Wikipedia-based Vietnamese reading comprehension system using transfer learning. Journal of Intelligent and Fuzzy Systems (Accepted).
 
 # Dataset 
 
-ViReader is trained on the large-scale Vietnamese dataset (UIT-ViQuAD [1]) for evaluating machine reading comprehension. 
+ViReader is trained on the large-scale Vietnamese dataset (UIT-ViQuAD [1]) for evaluating machine reading comprehension. In addition, we also evaluate ViReader on two other datasets: BiPaR [2] and UIT-ViNewsQA [3].
 
 # Requirements 
 
