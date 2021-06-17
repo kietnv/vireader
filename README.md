@@ -52,9 +52,9 @@ Phase 2: Answer Extractor
 
 Use Answer_Extractor_Training.ipynb and Answer_Extractor_Testing.ipynb for the training and testing phases of the answer extractor component of the ViReader system.
 
-# Evaluation on Other Datasets
+# Dataset Links
 
-ViNewsQA is available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
+UIT-ViQuAD and UIT-ViNewsQA are available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
 
 BiPaR is available at: https://multinlp.github.io/BiPaR
 
