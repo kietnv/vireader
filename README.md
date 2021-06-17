@@ -61,4 +61,5 @@ BiPaR is available at: https://multinlp.github.io/BiPaR
 # References 
 
 [1] Kiet Van Nguyen, Duc-Vu Nguyen, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. A Vietnamese Dataset for Evaluating Machine Reading Comprehension. COLING 2020.
-
+[2] Jing, Yimin, Deyi Xiong, and Zhen Yan. "BiPaR: A Bilingual Parallel Dataset for Multilingual and Cross-lingual Reading Comprehension on Novels." Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019.
+[3] Van Nguyen, Kiet, Tin Van Huynh, Duc-Vu Nguyen, Anh Gia-Tuan Nguyen, and Ngan Luu-Thuy Nguyen. "New vietnamese corpus for machine reading comprehension of health news articles." arXiv preprint arXiv:2006.11138 (2020).
