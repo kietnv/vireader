@@ -56,8 +56,6 @@ Use Answer_Extractor_Training.ipynb and Answer_Extractor_Testing.ipynb for the t
 
 UIT-ViQuAD and UIT-ViNewsQA are available at: https://sites.google.com/uit.edu.vn/kietnv/datasets
 
-BiPaR is available at: https://multinlp.github.io/BiPaR
-
 New SOTA results on the BiPaR scoreboard: https://github.com/sharejing/BiPaR
 
 # References 
