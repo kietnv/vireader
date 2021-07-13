@@ -58,6 +58,8 @@ UIT-ViQuAD and UIT-ViNewsQA are available at: https://sites.google.com/uit.edu.v
 
 BiPaR is available at: https://multinlp.github.io/BiPaR
 
+New SOTA results on the BiPaR scoreboard: https://github.com/sharejing/BiPaR
+
 # References 
 
 [1] Kiet Van Nguyen, Duc-Vu Nguyen, Anh Gia-Tuan Nguyen, Ngan Luu-Thuy Nguyen. A Vietnamese Dataset for Evaluating Machine Reading Comprehension. COLING 2020.
