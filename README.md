@@ -10,7 +10,7 @@ ViReader is trained on the large-scale Vietnamese dataset (UIT-ViQuAD [1]) for e
 
 # Requirements 
 
-!pip install sentence-transformers 
+!pip install sentence-transformers==1.1.0 
 
 !pip install underthesea 
 
